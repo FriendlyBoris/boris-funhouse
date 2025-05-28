@@ -224,7 +224,7 @@ const toolDefinition = {
       },
       timeout: {
         type: "number",
-        description: \`Optional timeout in milliseconds (max \${MAX_TIMEOUT_MS})\`,
+        description: `Optional timeout in milliseconds (max \${MAX_TIMEOUT_MS})\`,
         optional: true
       },
       description: {
@@ -266,3 +266,4 @@ Output: Creates directory 'foo'\`,
 };
 
 module.exports = toolDefinition;
+
